@@ -1,0 +1,51 @@
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #e6358d 70%, #ffc7fe);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "graf foto"
+    "reda anim";
+    margin: 0 10%;
+}
+
+.graf {
+    grid-area: graf;
+    border: 4px solid white;
+    padding: 5px 30px;
+}
+
+.foto {
+    grid-area: foto;
+    border: 4px solid white;
+    padding: 5px 30px;
+}
+
+.reda {
+    grid-area: reda;
+    border: 4px solid white;
+    padding: 5px 30px;
+}
+
+.anim {
+    grid-area: anim;
+    border: 4px solid white;
+    padding: 5px 30px;
+}

@@ -1,0 +1,23 @@
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #e6358d 70%, #ffc7fe);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+}
+
+div {
+    height: 300px;
+}
+
+main {
+    margin-left: 30px;
+}
+
+h1 {
+    border-bottom: double 4px white;
+}
